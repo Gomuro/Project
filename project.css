@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.houseImg{
+    position:fixed;
+    z-index: -1;
+    top:0;
+    left:0; 
+    min-width:100%;
+    min-height:100%;
+}
+.container{
+    width: 20%;
+    height: 745px;
+    background-color: #abbcef;
+    position:fixed;
+    opacity: .95;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 750px;
+    
+    border-radius: 3px;
+}
+.title{
+    position: relative;
+    color: white;
+    font-size: 50px;
+    font-family: Montserrat;
+
+    top: 150px;
+    transition: .5s;
+}
+.title.active{
+    transform: translateY(-3.7em);
+}
+.startButton{
+    border: none;
+    position: relative;
+    top:  270px;
+    left: 50px;
+    width: 130px;
+
+    opacity: 0.99;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Montserrat;
+
+    background: #6db9d3 ;
+    color :white;
+    font-size: 24px;
+}
+.ButtonLeft {
+    border: none;
+    position: relative;
+    
+    width: 130px;
+
+
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Montserrat;
+
+    color :white;
+    font-size: 24px;
+    transform: translateX(-11200%); 
+    transition: .5s;
+}
+.ButtonRight{
+    border: none;
+    position: relative;
+    
+    width: 130px;
+
+    margin-left: auto;
+    margin-right: auto;
+    top: -600px;
+    
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Montserrat;
+
+    color :white;
+    font-size: 20px;
+    transform: translateX(-11200%); 
+    text-align: unset;
+    transition: .5s;
+}
+.BlockLeft {
+    position: relative;
+    max-width: 320px;
+    height: 120px;
+   
+    top: -80px;
+    
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  
+    border-radius: 3px;
+
+    transform: translateX(-900%);
+    transition: .2s;
+}
+.BlockRigth {
+    position: relative;
+    max-width: 320px;
+    height: 120px;
+   
+    top: -750px;
+    
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+  
+    border-radius: 3px;
+
+    transform: translateX(-900%);
+    transition: .2s;
+}
+.toggleButton{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+} 
+.toggleButtonTV{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+.toggleButtonVent{
+    order: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+.toggleButtonLight{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+.toggleButtonCofe{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+.toggleButtonSecurity{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+.toggleButtonWifi{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+.toggleButtonGarage{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+.toggleButtonWater{
+    border: none;
+    background: #5c5c5c;
+    border-radius: 25%;
+
+    width: 40px;
+    height: 20px;
+    border:3px solid #ccc;
+    box-shadow:0px 0px 3px 3px #000;
+    margin-top: 5%;
+    margin-left : -80%;
+    transition: .35s;
+    cursor: pointer;
+}
+
+.TextInBlock{
+    color :white;
+    font-size : 18px;
+    font-family: Roboto;
+    margin-top: -20px;
+    margin-left: -100px;
+}
+.TextInBlockAndUnderContent{
+    color :white;
+    font-size : 18px;
+    font-family: Roboto;
+    margin: 0;
+}
+.TextTemperature{
+    color :white;
+    font-size : 18px;
+    font-family: Roboto;
+    margin-top: -40px;
+    margin-left: 110px;
+}
+.TextTemperatureC{
+    color :white;
+    font-size : 18px;
+    font-family: Roboto;
+    margin-top: -40px;
+    margin-left: 110px;
+}
+.VolumeText{
+    position: relative;
+    top: 20px;
+    color :white;
+    font-size : 14px;
+    font-family: Roboto;
+}
+.Change{
+    color :white;
+    font-size : 14px;
+    font-family: Roboto;
+    margin-top: -37px;
+    margin-left: 80px;
+}
+
+.leftChangeChange{
+    position: absolute;
+    top: 10px;
+    right : 30px;
+    background: rgba(108, 161, 108, 0);
+    cursor: pointer;
+    border: none;
+    color : white;
+    font-size : 24px;
+    cursor: pointer;
+}
+.RightChangeChange{
+    position: absolute;
+    top: 10px;
+    right : 0px;
+    background: rgba(108, 161, 108, 0);
+    cursor: pointer;
+    border: none;
+    color : white;
+    font-size : 24px;
+    cursor: pointer;
+}
+
+.LightSlider{
+    appearance: none;
+    width: 150px;
+    height: 10px;
+    margin-top: 40px;
+    background-color: #666;
+    cursor: ew-resize;
+    overflow: hidden;
+}
+.LightSlider::-webkit-slider-thumb{
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    box-shadow: -205px 0 0 200px darkorange;
+}
+.NumberText{
+    margin-top: -40px;
+    color :white;
+    font-size : 16px;
+    font-family: Roboto;
+}
+
+.cofeul{
+    list-style: none;
+    color :white;
+    
+    margin: 0;
+    max-width: 200px;
+    
+    display: flex;
+}
+li{
+    background-color:chocolate;
+    border-radius: 3px; 
+    margin-top: -5px;
+    margin-left: 5px;
+    cursor: pointer;
+    display: flex;
+}
+/********************************Timer***********************************************************/
+.countdown{
+    color:white;
+    margin : 0px;
+    margin-top:-20px;
+    font-size: 40px;
+    font-family: Roboto;
+}
+.countDown{
+    color:white;
+    margin-top:-5px;
+    font-size: 40px;
+    font-family: Roboto;
+}
+/************************************************************************************************/
+.toggleActive{
+    background:#00aeff;
+}
+.GarageText{
+    margin-left: 0;
+}
+.prosent{
+    font-size: 40px;
+    margin-top: -20px;
+}
+.deletes{
+    margin-left: 20px;
+}
+.TVButton{
+    background: #2ca9d3 ;
+}
+
+.TVblock{
+    background: #2ca9d3 ;
+}    
+
+.VentButton{
+    background: #4aff2a;   
+}
+
+.Ventblock{
+    
+    background: #4aff2a;
+   
+}
+.VentActiveBlock{
+    transform: translateX(0%);
+}
+
+.LightButton{
+    background: #FFC300 ;    
+}
+
+.Lightblock{
+    background: #FFC300 ;
+}
+.CofeButton{
+    background: #6f4e37  ;
+}
+
+.Cofeblock{
+    background: #6f4e37  ;
+}
+.SecurityButton{
+   
+    background: #5c6065  ;
+    
+}
+
+.Securityblock{
+   
+    background: #5c6065  ;
+}    
+.WiFIButton{
+   background: #15366e;
+   
+}
+
+.WiFiblock{
+    background: #15366e;
+   
+}
+.GarageButton{
+    
+
+    background: #D02700;
+    
+}
+
+.Garageblock{
+    
+    background: #D02700;
+   
+}
+.WaterSupplyButton{
+    background: #2660c3;
+}
+
+.WaterSupplyblock{
+
+    background: #2660c3;
+}    
+.activeLeft{
+    transform: translateX(-200%);
+}
+.activeRight{
+    transform: translateX(200%);
+}
+.ActiveBlock{
+    transform: translateX(0%);
+}
