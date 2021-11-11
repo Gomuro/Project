@@ -465,3 +465,70 @@ li{
 .ActiveBlock{
     transform: translateX(0%);
 }
+@media (max-width: 425px) {
+    .container{
+        width: 60%;
+        height: 725px;
+        background-color: #abbcef;
+        position:fixed;
+        opacity: .95;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        margin-top: 33px;
+        margin-left: 80px;
+        
+        border-radius: 3px;
+    }
+    .title{
+        position: relative;
+        color: white;
+        font-size: 38px;
+        font-family: Montserrat;
+    
+        top: 150px;
+        transition: .5s;
+    }
+    .title.active{
+        transform: translateY(-4em);
+    }
+    .startButton{
+        border: none;
+        position: relative;
+        top:  270px;
+        left: -5px;
+        width: 130px;
+    
+        opacity: 0.99;
+        padding: 10px 40px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-family: Montserrat;
+    
+        background: #6db9d3 ;
+        color :white;
+        font-size: 24px;
+    }
+    .ButtonLeft {
+        width: 130px;
+        left: 100px; 
+    }
+    .ButtonRight {
+        width: 130px;
+        right: 100px; 
+        top: -650px;
+    }
+    .TextInBlock{
+        font-size: 14px;
+        margin-left: -80px;
+    }
+    .GarageText{
+        margin-left: 0;
+    }
+    .deletes{
+        margin-left: 0;
+    }
+    .prosent{
+        margin-top: 0px;
+    }
+}
